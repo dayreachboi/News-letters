@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background: none;
+    display: flex;
+    justify-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    padding: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  button {
+    margin-top: 270px;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 40px;
+
+  }
+  .note {
+    font-size: 13px;
+  }
+  .para {
+    font-size: 34px;
+  }
+  .par {
+    font-size: 34px;
+  }
+}
